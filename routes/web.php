@@ -22,6 +22,10 @@ Route::get('/admin', function () {
     return view('admin');
 });
 
+Route::get('/colocation', function () {
+    return view('admin/colocation');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
