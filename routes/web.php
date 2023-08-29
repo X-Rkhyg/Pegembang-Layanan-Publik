@@ -18,8 +18,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/VPS/Surat-Pengantar-Pengajuan-Server', function () {
-    return view('Surat-Pengantar-Pengajuan-Server');
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+Route::get('/colocation', function () {
+    return view('admin/colocation');
 });
 
 Route::get('/dashboard', function () {
