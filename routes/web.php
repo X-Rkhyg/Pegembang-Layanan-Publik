@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/VPS/Surat-Pengantar-Pengajuan-Server', function () {
+    return view('Surat-Pengantar-Pengajuan-Server');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
