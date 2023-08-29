@@ -1,7 +1,7 @@
 @extends('layouts.dashboard')
 
 @section('sidebar')
-    <div class="bg-white w-[1584px] mx-9 px-9">
+    <div class="bg-white w-[1584px] mx-[1rem] px-9">
         <div class="flex flex-col">
             <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">

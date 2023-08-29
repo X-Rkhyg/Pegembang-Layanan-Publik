@@ -20,7 +20,7 @@
 </head>
 
 <body class="font-sans bg-admin flex w-full">
-    <div class="h-screen bg-white w-[15.2%]">
+    <div class="h-screen bg-white w-2/6">
         <div class="py-11">
             <h1 class="text-[48px] font-bold text-center text-highlight">
                 ADMIN
@@ -58,6 +58,20 @@
                     <ul class="flex flex-col gap-y-2">
                         <li><a class="text-text" href="">Single User</a></li>
                         <li><a class="text-text" href="">Multi User</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center gap-x-[13.2px]">
+                    <img src="{{ asset('assets/vps.svg') }}" alt="">
+                    <a class="text-text" href="">Sertifikat Elektronik</a>
+                </div>
+
+                <div class="pl-[37px] py-2 w-full">
+                    <ul class="flex flex-col gap-y-2">
+                        <li><a class="text-text" href="">Permohonan VPS Baru</a></li>
+                        <li><a class="text-text" href="">Permohonan Perubahan VPS</a></li>
                     </ul>
                 </div>
             </div>
