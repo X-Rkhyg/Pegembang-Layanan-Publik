@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('formulirpermohonanaksesfisikdatacenter');
 });
 
+Route::get('/shel', function () {
+    return view('PermohonanPerubahanVPS');
+});
+
 Route::get('/admin', function () {
     return view('admin');
 });
