@@ -20,7 +20,7 @@
 </head>
 
 <body class="font-sans bg-admin flex w-full">
-    <div class="h-screen bg-white w-2/6">
+    <div class="h-screen bg-white w-1/6">
         <div class="py-11">
             <h1 class="text-[48px] font-bold text-center text-highlight">
                 ADMIN
