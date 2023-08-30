@@ -34,12 +34,20 @@ Route::get('/colocation', function () {
     return view('admin/colocation');
 });
 
-Route::get('/VPS/Formulir-Permohonan-Akses-Fisik-Data-Center', function () {
+Route::get('/VPS/f2', function () {
     return view('f2');
 });
 
-Route::get('/VPS/Surat-Pengantar-Pengajuan-Server', function () {
+Route::get('/VPS/f7', function () {
     return view('f7');
+});
+
+Route::get('/VPS/f5', function () {
+    return view('f5');
+});
+
+Route::get('/VPS/f3', function () {
+    return view('f3');
 });
 
 Route::get('/dashboard', function () {
