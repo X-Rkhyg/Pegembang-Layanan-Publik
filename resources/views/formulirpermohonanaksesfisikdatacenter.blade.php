@@ -79,7 +79,7 @@
 
 
                         <form>
-                            <h5 class="text-center">Formulir Permohonan Akses Fisik Data Center</h5><br>
+                            <h5 class="text-center text-decoration-underline">Formulir Permohonan Akses Fisik Data Center</h5><br>
                             <div class="row">
                                 <div class="col-md-6 mb-2">
                                     <div class="form-outline">
@@ -93,7 +93,7 @@
                                         <input type="text" id="" class="form-control" />
                                     </div>
                                 </div>
-                            </div>
+                            </div><br>
                             <h6>Daftar Pengunjung</h6>
                             <div class="">
                                 <div class="col-md-6 mb-2">
@@ -196,17 +196,7 @@
                                         <label class="form-label" for="">Catatan :</label>
                                         <input type="text" id="" class="form-control" />
                                     </div>
-
-                                    <div class="row mt-5">
-                                        <div class="col-md-8">
-                                            <div class="form-outline">
-                                                <label class="form-label fs-5" for="">Tambah Data</label>
-                                                <a class="mx-2" href=""><img src="{{asset ('assets/button plus.svg')}}"></a>
-                                                <a class="" href=""><img src="{{asset ('assets/button min.svg')}}"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                </div>
                         </form>
                     </div>
                 </div>
