@@ -20,15 +20,16 @@
                             <tbody>
                                 <tr class="border-b dark:border-neutral-500">
                                     <td class="whitespace-nowrap px-6 py-2 font-medium">1</td>
-                                    <td class="whitespace-nowrap px-6 py-2">PT SEJAHTERA</td>
+                                    <td class="whitespace-nowrap px-6 py-2">PT. SEJAHTERA</td>
                                     <td class="whitespace-nowrap px-6 py-2">John Doe</td>
                                     <td class="whitespace-nowrap px-6 py-2">192839201829327183</td>
                                     <td class="whitespace-nowrap px-6 py-2">Belum Disetujui</td>
                                     <td class="whitespace-nowrap px-6 py-2">
-                                        <div class="flex gap-x-3">
-                                        <a href="#" class="h-[30px] w-[30px]"><img src="{{asset('assets/detail-icon.svg')}}"></button></a>
-                                        <a href="#" class="btn"><img src="{{asset('assets/detail-icon.svg')}}"></button></a>
-                                    </div>
+                                        <div class="flex justify-center gap-x-3">
+                                            <a href="#" class="btn"><img src="{{asset('assets/detail-icon.svg')}}"></button></a>
+                                            <a href="#" class="btn btn-info"><img src="{{asset('assets/edit-icon.svg')}}"></button></a>
+                                            <a href="#" class="btn btn-error"><img src="{{asset('assets/delete-icon.svg')}}"></button></a>
+                                        </div>
                                     </td>
                                 </tr>
                             </tbody>

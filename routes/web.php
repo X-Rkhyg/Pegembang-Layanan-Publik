@@ -15,7 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('formulirpermohonanaksesfisikdatacenter');
+    return view('dashboard');
+});
+
+Route::get('/shel', function () {
+    return view('PermohonanPerubahanVPS');
 });
 
 Route::get('/phau', function () {
@@ -30,8 +34,12 @@ Route::get('/colocation', function () {
     return view('admin/colocation');
 });
 
+Route::get('/VPS/Formulir-Permohonan-Akses-Fisik-Data-Center', function () {
+    return view('f2');
+});
+
 Route::get('/VPS/Surat-Pengantar-Pengajuan-Server', function () {
-    return view('Surat-Pengantar-Pengajuan-Server');
+    return view('f7');
 });
 
 Route::get('/dashboard', function () {
