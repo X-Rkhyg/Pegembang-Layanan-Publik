@@ -79,7 +79,7 @@
 
 
                         <form>
-                            <h5 class="text-center">Formulir Permohonan Akses Fisik Data Center</h5>
+                            <h5 class="text-center">Formulir Permohonan Akses Fisik Data Center</h5><br>
                             <div class="row">
                                 <div class="col-md-6 mb-2">
                                     <div class="form-outline">
@@ -115,96 +115,97 @@
                                     </div>
                                 </div>
                                 <label class="form-label fs-5" for="">Tambah Data</label>
-                                        <a class="mx-2" href=""><img src="{{asset ('assets/button plus.svg')}}"></a>
-                                        <a class="" href=""><img src="{{asset ('assets/button min.svg')}}"></a>
+                                <a class="mx-2" href=""><img src="{{asset ('assets/button plus.svg')}}"></a>
+                                <a class="" href=""><img src="{{asset ('assets/button min.svg')}}"></a>
                             </div>
-                            <h6>Daftar Pengunjung</h6>
-                            <input type="checkbox" name="keperluan[]" value="Server Hardware Maintenance">Server Hardware Maintenance<br>
-                            <input type="checkbox" name="keperluan[]" value="Server Software Maintenance">Server Software Maintenance<br>
-                            <input type="checkbox" name="keperluan[]" value="Hanya Berkunjung">Hanya Berkunjung<br>
-                            <input type="checkbox" name="keperluan[]" value="Server IP">Server IP<br>
-                            <input type="checkbox" name="keperluan[]" value="Server Hostname">Server Hostname<br>
-                            <input type="checkbox" name="keperluan[]" value="Server Penyelesaian Malasalah">Server Penyelesaian Masalah<br><br>
-                            
-                            <h6>Daftar Hardware</h6>
-                            <div class="row">
-                                <div class="col-md-6 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">Deskripsi :</label>
-                                        <input type="text" id="" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">Nomor Serial :</label>
-                                        <input type="text" id="" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">Masuk :</label>
-                                        <input type="text" id="" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">Keluar :</label>
-                                        <input type="text" id="" class="form-control" />
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="col-12 py-4">
+                                <h6>Daftar Pengunjung</h6>
+                                <input type="checkbox" name="keperluan[]" value="Server Hardware Maintenance">Server Hardware Maintenance<br>
+                                <input type="checkbox" name="keperluan[]" value="Server Software Maintenance">Server Software Maintenance<br>
+                                <input type="checkbox" name="keperluan[]" value="Hanya Berkunjung">Hanya Berkunjung<br>
+                                <input type="checkbox" name="keperluan[]" value="Server IP">Server IP<br>
+                                <input type="checkbox" name="keperluan[]" value="Server Hostname">Server Hostname<br>
+                                <input type="checkbox" name="keperluan[]" value="Server Penyelesaian Malasalah">Server Penyelesaian Masalah<br><br>
 
-                            <h6>Menyetujui</h6>
-                            <div class="">
-                                <div class="col-md-6 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">Nama :</label>
-                                        <input type="text" id="" class="form-control" />
+                                <h6>Daftar Hardware</h6>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">Deskripsi :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-2">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">Nomor Serial :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 mb-7">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">Masuk :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 mb-7">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">Keluar :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">NIP :</label>
-                                        <input type="text" id="" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">Jabatan :</label>
-                                        <input type="text" id="" class="form-control" />
-                                    </div>
-                                </div>
-                            </div>
 
-                            <h6>Penanggung Jawab Data Center</h6>
-                            <div class="">
-                                <div class="col-md-6 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">Nama :</label>
-                                        <input type="text" id="" class="form-control" />
+                                <h6>Menyetujui</h6>
+                                <div class="">
+                                    <div class="col-md-6 mb-2">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">Nama :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">NIP :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">Jabatan :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">NIP :</label>
-                                        <input type="text" id="" class="form-control" />
-                                    </div> 
-                            </div>
 
-                            <div class="form-outline mb-2">
-                                <label class="form-label" for="">Catatan :</label>
-                                <input type="text" id="" class="form-control" />
-                            </div>
-
-                            <div class="row mt-5">
-                                <div class="col-md-8">
-                                    <div class="form-outline">
-                                        <label class="form-label fs-5" for="">Tambah Data</label>
-                                        <a class="mx-2" href=""><img src="{{asset ('assets/button plus.svg')}}"></a>
-                                        <a class="" href=""><img src="{{asset ('assets/button min.svg')}}"></a>
+                                <h6>Penanggung Jawab Data Center</h6>
+                                <div class="">
+                                    <div class="col-md-6 mb-2">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">Nama :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">NIP :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
+                                    </div>
+
+                                    <div class="form-outline mb-2">
+                                        <label class="form-label" for="">Catatan :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+
+                                    <div class="row mt-5">
+                                        <div class="col-md-8">
+                                            <div class="form-outline">
+                                                <label class="form-label fs-5" for="">Tambah Data</label>
+                                                <a class="mx-2" href=""><img src="{{asset ('assets/button plus.svg')}}"></a>
+                                                <a class="" href=""><img src="{{asset ('assets/button min.svg')}}"></a>
+                                            </div>
+                                        </div>
+                                    </div>
 
                         </form>
                     </div>
