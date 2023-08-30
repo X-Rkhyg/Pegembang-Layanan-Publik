@@ -34,6 +34,10 @@ Route::get('/colocation', function () {
     return view('admin/colocation');
 });
 
+Route::get('/Server/Colocation', function () {
+    return view('colocationserver');
+});
+
 Route::get('/VPS/f2', function () {
     return view('f2');
 });
