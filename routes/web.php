@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('formulirpermohonanaksesfisikdatacenter');
 });
 
+Route::get('/phau', function () {
+    return view('sertifikatelektronikmultiuser');
+});
+
 Route::get('/admin', function () {
     return view('admin');
 });
