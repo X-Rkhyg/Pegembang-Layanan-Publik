@@ -2,7 +2,7 @@
 
 @section('sidebar')
 
-<div class="mx-[1rem]">
+<div class="px-[1rem]">
     <div>
         <div class="flex gap-x-[12.8px]">
             <h1 class="font-medium text-[32px] text-[#A3AED0]">VPS</h1>
@@ -12,9 +12,9 @@
     </div>
     
     
-    <div class="bg-white h-screen w-[1584px] px-9">
+    <div class="bg-white rounded-md h-fit w-[1584px] py-8 px-9">
 
-        
+
 
         <div class="flex flex-col">
             <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
