@@ -15,7 +15,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('formulirpermohonanaksesfisikdatacenter');
+});
+
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+Route::get('/colocation', function () {
+    return view('admin/colocation');
+});
+
+Route::get('/VPS/Surat-Pengantar-Pengajuan-Server', function () {
+    return view('Surat-Pengantar-Pengajuan-Server');
 });
 
 Route::get('/dashboard', function () {
@@ -28,4 +40,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

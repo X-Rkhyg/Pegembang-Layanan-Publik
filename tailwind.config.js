@@ -16,12 +16,13 @@ export default {
             },
 
             colors: {
-                'highlight-color' : '#2B3674',
-                'text-color' : '#A3AED0',
-                'highlight-btn' : '#05CD99',
+                'highlight' : '#2B3674',
+                'text' : '#A3AED0',
+                'btn' : '#05CD99',
+                'admin' : '#F4F7FE',
             },
         },
     },
 
-    plugins: [forms],
+    plugins: [forms, require("daisyui")],
 };
