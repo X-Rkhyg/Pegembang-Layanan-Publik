@@ -108,31 +108,36 @@
                                 </div>
                             </div>
                             <h6>Spesifikasi VPS yang diinginkan</h6>
-                            <div class="">
+                            <div class="row">
                                 <div class="col-md-6 mb-2">
                                     <div class="form-outline">
                                         <label class="form-label" for="">Prosesor :</label>
                                         <input type="text" id="" class="form-control" />
                                     </div>
-                                </div>
-                                <div class="col-md-6 mb-2">
                                     <div class="form-outline">
                                         <label class="form-label" for="">Sistem Operasi :</label>
                                         <input type="text" id="" class="form-control" />
                                     </div>
                                 </div>
-                                <h6>Hardisk</h6>
-                                <input type="checkbox" name="hardisk[]" value="20 GB"> 20 GB<br>
-                                <input type="checkbox" name="hardisk[]" value="40 GB"> 40 GB<br>
-                                <h6>RAM</h6>
-                                <input type="checkbox" name="RAM[]" value="1 GB"> 1 GB<br>
-                                <input type="checkbox" name="RAM[]" value="2 GB"> 2 GB<br>
                                 <div class="col-md-6 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">IP Address :</label>
-                                        <input type="text" id="" class="form-control" />
+                                <h6>RAM</h6>
+                                    <input type="checkbox" name="RAM[]" value="1 GB"> 1 GB<br>
+                                    <input type="checkbox" name="RAM[]" value="2 GB"> 2 GB<br>
+                                <div class="form-outline">
+                                    <label class="form-label" for="">IP Address :</label>
+                                    <input type="text" id="" class="form-control" />
                                     </div>
                                 </div>
+
+                                <div class="">
+                                <div class="col-md-6 mb-2">
+                                <h6>Hardisk</h6>
+                                    <input type="checkbox" name="hardisk[]" value="20 GB"> 20 GB<br>
+                                    <input type="checkbox" name="hardisk[]" value="40 GB"> 40 GB<br>
+                                </div>
+                                </div>
+
+                                
                             </div>
                             <h6>Akun Akses Non Fisik</h6>
                             <input type="checkbox" name="Akun Akses Non Fisik[]" value="SSH"> SSH<br>
@@ -140,49 +145,40 @@
 
                             <h7>Dengan ini saya menyatakan bahwa data di atas adalah benar, dan akan mematuhi peraturan atau tata tertib data center yang berlaku.</h7>
 
-                            <h6>Menyetujui</h6>
-                            <div class="">
+                            
+                            <div class="row">
                                 <div class="col-md-6 mb-2">
+                                <h6>Menyetujui</h6>
                                     <div class="form-outline">
                                         <label class="form-label" for="">Nama :</label>
                                         <input type="text" id="" class="form-control" />
                                     </div>
-                                </div>
-                                <div class="col-md-6 mb-2">
                                     <div class="form-outline">
                                         <label class="form-label" for="">NIP :</label>
                                         <input type="text" id="" class="form-control" />
                                     </div>
-                                </div>
-                                <div class="col-md-6 mb-2">
                                     <div class="form-outline">
                                         <label class="form-label" for="">Jabatan :</label>
                                         <input type="text" id="" class="form-control" />
                                     </div>
                                 </div>
-                            </div>
-
+                                <div class="col-md-6 mb-2">
                             <h6>Pemohon</h6>
-                            <div class="">
-                                <div class="col-md-6 mb-2">
                                     <div class="form-outline">
                                         <label class="form-label" for="">Nama :</label>
                                         <input type="text" id="" class="form-control" />
                                     </div>
-                                </div>
-                                <div class="col-md-6 mb-2">
                                     <div class="form-outline">
                                         <label class="form-label" for="">NIP :</label>
                                         <input type="text" id="" class="form-control" />
                                     </div> 
-                            </div>
-                                <div class="col-md-6 mb-2">
                                     <div class="form-outline">
                                         <label class="form-label" for="">Jabatan :</label>
                                         <input type="text" id="" class="form-control" />
                                     </div> 
-                                </div>
                             </div>
+                            </div>
+                            
 
                         </form>
                     </div>
