@@ -15,7 +15,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('formulirpermohonanaksesfisikdatacenter');
+    return view('dashboard');
+});
+
+Route::get('/shel', function () {
+    return view('PermohonanPerubahanVPS');
+});
+
+Route::get('/phau', function () {
+    return view('sertifikatelektronikmultiuser');
 });
 
 Route::get('/admin', function () {
@@ -26,8 +34,20 @@ Route::get('/colocation', function () {
     return view('admin/colocation');
 });
 
-Route::get('/VPS/Surat-Pengantar-Pengajuan-Server', function () {
-    return view('Surat-Pengantar-Pengajuan-Server');
+Route::get('/VPS/f2', function () {
+    return view('f2');
+});
+
+Route::get('/VPS/f7', function () {
+    return view('f7');
+});
+
+Route::get('/VPS/f5', function () {
+    return view('f5');
+});
+
+Route::get('/VPS/f3', function () {
+    return view('f3');
 });
 
 Route::get('/dashboard', function () {
