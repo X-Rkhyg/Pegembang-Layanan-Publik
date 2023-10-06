@@ -4,8 +4,51 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .linked {
-    color: A3AED0;
+@layer components { 
+  input:where(:not([type])), 
+  [type='email'], 
+  [type='url'], 
+  [type='password'], 
+  [type='number'],  
+  [type='datetime-local'], 
+  [type='month'], 
+  [type='search'], 
+  [type='tel'], 
+  [type='time'], 
+  [type='week'], 
+  [multiple], 
+  textarea, 
+  select {
+    
+    padding: 8px 12px;
+    border-radius: 4px;
+    width: 208px;
+    border-color: #DDDDDD;
+  }
+  
+  label {
+    color: #A3AED0;
+  }
+
+  [type='text'],
+  [type='date'], 
+  [type='time'],
+  .detail {
+    width: 50%;
+    border-color: #DDDDDD;
+    border-radius: 4px;
+    margin: 15px 0;
+  }
+
+  option {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 5px;
+    border-radius: 'none';
+    color: #A3AED0;
+    font-weight: normal;
+    display: block;
+    padding: 4px 1px;
   }
 }

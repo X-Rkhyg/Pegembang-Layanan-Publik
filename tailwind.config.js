@@ -11,6 +11,14 @@ export default {
 
     theme: {
         extend: {
+
+            screens: {
+                'sm': {'min': '300px','max' : '767px'},
+                'md': {'min': '768px', 'max': '991px'},
+                'lg': {'min': '992px', 'max': '1199px'},
+                'xl': {'min': '1200px'},
+            },
+
             fontFamily: {
                 sans: ['DM Sans', ...defaultTheme.fontFamily.sans],
             },
@@ -18,6 +26,7 @@ export default {
             colors: {
                 'highlight' : '#2B3674',
                 'text' : '#A3AED0',
+                'purple' : '#4318FF',
                 'btn' : '#05CD99',
                 'admin' : '#F4F7FE',
             },

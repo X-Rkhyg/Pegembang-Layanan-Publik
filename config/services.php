@@ -31,4 +31,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'mikrotik' => [
+        'host' => env('host'),
+        'user' => env('user'),
+        'pass' => env('pass'),
+    ],
+
 ];
